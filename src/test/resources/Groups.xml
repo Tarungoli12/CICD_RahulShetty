@@ -6,6 +6,9 @@
             <include name="smoke"/>
         </run>
     </groups>
+    <listeners>
+        <listener class-name="com.automation.Listeners"/>
+    </listeners>
     <test name="GroupExample">
         <classes>
             <class name="com.automation.CarLoan"/>
