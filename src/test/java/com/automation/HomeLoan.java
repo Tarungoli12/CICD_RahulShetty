@@ -20,7 +20,7 @@ public class HomeLoan{
 
     @Test(groups = {"smoke"})
     public void Demo(){
-        System.out.println("Demo Test case");
+        System.out.println(" CICD Integration Demo Test case");
     }
 
     @Test

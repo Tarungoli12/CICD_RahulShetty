@@ -6,7 +6,7 @@ public class CarLoan extends Annotations{
 
     @Test(groups = {"smoke"})
     public void testCase1() {
-        System.out.println("testCase 1");
+        System.out.println("CICD Integration  - testCase 1");
     }
 
     @Test(dependsOnMethods = {"testCase5"})
